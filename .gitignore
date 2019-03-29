@@ -1,0 +1,11 @@
+venv/
+keyfile.py
+ytmanenv/*
+*.save
+*.save.*
+__pycache__/
+static/input/*
+*.out
+*.swp
+.idea/
+client_secret.json
