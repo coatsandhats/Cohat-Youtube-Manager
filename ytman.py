@@ -1,4 +1,3 @@
-import os
 import sys
 import flask
 import time
@@ -9,7 +8,7 @@ import google.oauth2.credentials
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
 from pytube import YouTube
-from flask import Markup, request, render_template, send_file, Flask, Response
+from flask import Markup, request, render_template, send_file
 from tasks import make_celery
 from celery.result import AsyncResult
 

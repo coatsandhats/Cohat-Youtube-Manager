@@ -17,6 +17,7 @@ If there is a 500 error, a good check is to skip to www.lcoats.me/authorize, (th
 - requests
 - pytube
 - celery (in linux version, it is possible to replace with old windows version)
+- redis server used by celery
 - ffmpeg (app uses ffmpeg in env variables by default)
 - YouTube credentials: api key, 2.0 client id's client_secret.json
 ### How To Use
